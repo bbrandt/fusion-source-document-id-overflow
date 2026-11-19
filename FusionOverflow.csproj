@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Named after an InternalsVisibleTo entry of HotChocolate.Fusion.Execution so the program can reach DbRow. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>HotChocolate.Fusion.Execution.Tests</AssemblyName>
+    <RootNamespace>SourceDocumentIdRepro</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HotChocolate.Fusion.Execution" Version="16.7.6" />
+  </ItemGroup>
+
+</Project>
